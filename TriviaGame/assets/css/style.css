@@ -1,0 +1,48 @@
+h1 {
+	text-align: center;
+	
+
+}
+
+p {
+	font-size: 40px;
+	font
+}
+
+#ans1 {
+	font-size: 38px;
+	
+}
+
+#ans2 {
+	font-size: 38px;
+}
+
+#ans3 {
+	font-size: 38px;
+}
+
+body {
+	background-image: url("../images/bg.png");
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 1em;
+
+}
+
+label {
+	color: white;
+}
+
+.checkbox-inline+.checkbox-inline, .radio-inline+.radio-inline {
+	margin-left: 100px;
+
+}
+
+.jumbotron {
+	background-image: url("../images/jtbg.jpg");
+	background-repeat: no-repeat;
+}

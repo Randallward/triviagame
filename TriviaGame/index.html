@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Videogame Trivia</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="assets/javascript/trivjava.js"></script>
+  <script>
+  var actualchoices=new Array()
+  </script>
+  <style type="text/css">
+  	h1 {
+  		color: #B70F0F;
+  	}
+  </style>
+</head>
+<body>
+ <form method="POST" name="myquiz">
+	<div class="container">
+	  <div class="jumbotron">
+		<h1>Videogame Trivia</h1>
+		<br>
+	  </div>
+	</div>	
+	<div class="container" id="trivia1">
+		<h1><p>Which red-haired videogame villain is known for their schemes against the hero of time?</p></h1>
+		<label class="radio-inline" id="ans1"><input type="radio" value="a" name="question1">Bowser</label>
+		<label class="radio-inline" id="ans1"><input type="radio" value="b" name="question1">Ganon</label>
+		<label class="radio-inline" id="ans1"><input type="radio" value="c" name="question1">Dr. Robotnik</label>
+	</div>	
+
+	<div class="container" id="trivia2">
+		<h1><p>What was the title of the proposed original Street Fighter?</p></h1>
+		<label class="radio-inline" id="ans2"><input type="radio" value="a" name="question2">Final Fight</label>
+		<label class="radio-inline" id="ans2"><input type="radio" value="b" name="question2">Street Fighter 98</label>
+		<label class="radio-inline" id="ans2"><input type="radio" value="c" name="question2">Punch Festival</label>
+	</div>	
+
+	<div class="container" id="trivia3">
+		<h1><p>We know he was in the Alpha Zones but who is "he"?</p></h1>
+		<label class="radio-inline" id="ans3"><input type="radio" value="a" name="question3">Jack Justice</label>
+		<label class="radio-inline" id="ans3"><input type="radio" value="b" name="question3">Rick Rescue</label>
+		<label class="radio-inline" id="ans3"><input type="radio" value="c" name="question3">Keith Courage</label>
+	</div>	
+
+	<form>
+<div align="center">
+<input type="button" value="Grade Me!" name="B1" onClick="gradeit()"> <input type="button" value="Reset" name="B2" onClick="document.myquiz.reset()"></div>
+</form>
+
+
+</body>
+</html>
